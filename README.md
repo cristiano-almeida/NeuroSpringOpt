@@ -19,8 +19,8 @@ Testamos quatro modificadores de gradiente diferentes durante o treinamento da r
 
 ├── main.py                      # Executa todo o processo
 ├── requirements.txt             # Dependências do projeto
-├── spring\_optimization\_results/      # Resultados gerados
-└── my\_spring\_optimization\_results/   # Resultados prontos para consulta
+├── spring_optimization_results/      # Pasta com seus resultados gerados
+└── my_spring_optimization_results/   # Pasta com resultados prontos para consulta
 
 ```
 
@@ -30,7 +30,7 @@ Testamos quatro modificadores de gradiente diferentes durante o treinamento da r
 
 ### 1. Baixe o projeto
 
-- Acesse: https://github.com/SEU_USUARIO/SEU_REPOSITORIO
+- Acesse: https://github.com/cristiano-almeida/NeuroSpringOpt
 - Clique em **Code** > **Download ZIP**
 - Extraia o conteúdo para uma pasta no seu computador
 
