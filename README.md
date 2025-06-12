@@ -23,6 +23,14 @@ Testamos quatro modificadores de gradiente diferentes durante o treinamento da r
 └── my_spring_optimization_results/   # Pasta com resultados prontos para consulta
 
 ```
+## ⚙️ Pré-requisitos
+
+Antes de começar, certifique-se de ter o **Python 3.8 ou superior** instalado em seu computador.
+
+🔗 Baixe o Python em:  
+👉 [https://www.python.org/downloads/](https://www.python.org/downloads/)
+
+> ⚠️ No Windows, marque a opção **"Add Python to PATH"** durante a instalação para facilitar o uso no terminal.
 
 ---
 
