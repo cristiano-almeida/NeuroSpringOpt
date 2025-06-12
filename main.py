@@ -660,13 +660,13 @@ class SpringOptimizer:
 
 
 def sigmoid(z):
-    """Função de ativação sigmoide"""
-    return 1.0 / (1.0 + np.exp(-z))
-
+    z_clipped = np.clip(z, -50, 50)  # Solução mínima para evitar overflow
+    return 1.0 / (1.0 + np.exp(-z_clipped))
 
 def sigmoid_derivative(z):
-    """Derivada da função sigmoide"""
-    return sigmoid(z) * (1 - sigmoid(z))
+    z_clipped = np.clip(z, -50, 50)
+    s = sigmoid(z_clipped)
+    return s * (1 - s)
 
 
 if __name__ == "__main__":
